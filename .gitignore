@@ -38,6 +38,6 @@ next-env.d.ts
 src/app/components/
 src/app/context/
 src/app/graphql/
-src/app/signin/
-src/app/signup/
+# src/app/signin/
+# src/app/signup/
 src/app/widgets/
