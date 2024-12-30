@@ -1,6 +1,5 @@
 'use client';
 import { MainNavbar } from "./components/navbar";
-import { Sidebar } from "./components/sidebar";
 import { Overview } from "./widgets/overview";
 import { ActiveOrders } from "./widgets/active-orders";
 import data from "./data/profile.json";
@@ -8,6 +7,8 @@ import { UserList } from "./widgets/user-list";
 import { Address } from "./widgets/address";
 import { ContactForm } from "./widgets/contact-form";
 import DashboardChart from "./widgets/DashboardChart";
+import Sidebar from "./components/sidebar";
+
 
 export default function Home() {
 
@@ -15,7 +16,8 @@ export default function Home() {
   return (
     <div className="bg-slate-100 min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased">
       <MainNavbar />
-      <Sidebar />
+
+      <Sidebar selectedMainmenu="Dashboard" selectedSubmenu="" />
       <div className="h-full ml-14 mt-20 mb-10 md:ml-64">
         <Overview />
         <div className="p-4">
