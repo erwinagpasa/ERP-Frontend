@@ -2,13 +2,13 @@
 import { MainNavbar } from "./components/navbar";
 import { Overview } from "./widgets/overview";
 import { ActiveOrders } from "./widgets/active-orders";
-import data from "./data/profile.json";
-import { UserList } from "./widgets/user-list";
+
 import { Address } from "./widgets/address";
 import { ContactForm } from "./widgets/contact-form";
 import DashboardChart from "./widgets/DashboardChart";
 import Sidebar from "./components/sidebar";
-
+import { ProductList } from "./widgets/ProductList";
+import data from "./data/productList.json";
 
 export default function Home() {
 
@@ -30,7 +30,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <UserList data={data} />
+        <ProductList data={data} />
         <div className="mt-8 mx-4">
           <div className="grid grid-cols-1 md:grid-cols-2">
             <Address />

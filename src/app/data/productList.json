@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "item_name": "iPhone 13 Pro",
+    "sku": "ELEC-IPH13P-256-GR",
+    "category": "Electronics",
+    "price": 999.99,
+    "quantity": 50,
+    "status": "In Stock",
+    "expiry_date": "January 23, 2025",
+    "text_color": "text-white",
+    "status_bg": "bg-sky-300"
+  },
+  {
+    "id": 2,
+    "item_name": "Organic Bananas",
+    "sku": "GRO-BAN-ORG-1KG",
+    "category": "Groceries",
+    "price": 2.99,
+    "quantity": 100,
+    "status": "In Stock",
+    "expiry_date": "February 5, 2025",
+    "text_color": "text-blue-500",
+    "status_bg": "bg-slate-200"
+  },
+  {
+    "id": 3,
+    "item_name": "Nike Air Max",
+    "sku": "FTW-NK-AM-42BK",
+    "category": "Footwear",
+    "price": 129.99,
+    "quantity": 25,
+    "status": "Low Stock",
+    "expiry_date": "February 28, 2025",
+    "text_color": "text-emerald-500",
+    "status_bg": "bg-slate-200"
+  },
+  {
+    "id": 4,
+    "item_name": "Milk",
+    "sku": "GRO-MLK-FF-1L",
+    "category": "Groceries",
+    "price": 3.49,
+    "quantity": 75,
+    "status": "In Stock",
+    "expiry_date": "March 2, 2025",
+    "text_color": "text-white",
+    "status_bg": "bg-emerald-500"
+  },
+  {
+    "id": 5,
+    "item_name": "Samsung TV",
+    "sku": "ELEC-TV-SAM-55",
+    "category": "Electronics",
+    "price": 799.99,
+    "quantity": 10,
+    "status": "In Stock",
+    "expiry_date": "December 12, 2024",
+    "text_color": "text-white",
+    "status_bg": "bg-red-300"
+  }
+]
