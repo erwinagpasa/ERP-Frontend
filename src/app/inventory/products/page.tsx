@@ -1,4 +1,4 @@
-'use client';
+// 'use client';
 
 import { MainNavbar } from "@/app/components/navbar";
 import Sidebar from "@/app/components/sidebar";
@@ -16,16 +16,6 @@ export default function InventoryProducts() {
       <Sidebar selectedMainmenu="Inventory" selectedSubmenu="Products" />
       <div className="h-full ml-14 mt-20 mb-10 md:ml-64">
         <Overview />
-        {/* <div className="p-4"> */}
-        {/* <div className="flex flex-row"> */}
-        {/* <div className="flex-initial  w-2/5 pr-2 hidden md:block"> */}
-        {/* <ActiveOrders /> */}
-        {/* </div> */}
-        {/* <div className="flex-initial max-sm:w-full w-3/5 pl-3 "> */}
-        {/* <DashboardChart /> */}
-        {/* </div> */}
-        {/* </div> */}
-        {/* </div> */}
         <ProductList data={data} />
       </div>
     </div>
